@@ -205,6 +205,16 @@ header nav ul {
         left: 625px;
         bottom: 40px;
     }
+
+    .share-img {
+        background-image: url(../img/Union.svg);
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 42px;
+        right: 42px;
+        opacity: 0.6;
+    }
 }
 
 .ed-steps {
