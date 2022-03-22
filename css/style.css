@@ -954,7 +954,9 @@ header nav ul li p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.facts-info h2, .facts-info h3, .facts-info h4 {
+.facts-info h2,
+.facts-info h3,
+.facts-info h4 {
   width: 519px;
   height: 102px;
   font-weight: 700;
@@ -1416,4 +1418,373 @@ header nav ul li p {
   margin-left: 13px;
   background-image: url(../img/greendot.svg);
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+  .header-contact-info {
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    background-size: contain;
+  }
+
+  .header-block-contact {
+    width: 80%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .header-contact-items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .block-phone {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .block-phone p {
+    margin-left: 0;
+    font-size: 40px;
+  }
+
+  .header-btn {
+    margin-top: 10px;
+    width: 450px;
+    height: 80px;
+    background-color: #4b4a4a;
+  }
+  .header-btn p {
+    font-size: 26px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  nav ul {
+    margin-top: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+  nav ul li {
+    margin-top: 13px;
+  }
+  nav ul p {
+    width: 70%;
+    margin-top: 20px;
+    font-size: 30px;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    border-radius: 0;
+  }
+
+  .ed-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 700px;
+  }
+
+  .ed-main-img {
+    margin-left: 250px;
+    width: 700px;
+    height: 800px;
+    height: auto;
+    background-size: 190%;
+  }
+
+  .ed-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .ed-info h1 {
+    width: 100%;
+    margin-left: 10px;
+    text-align: start;
+  }
+  .ed-info p {
+    width: 70%;
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: start;
+  }
+  .ed-info .moscow-img {
+    display: none;
+  }
+
+  .ed-steps {
+    width: 700px;
+    margin-left: 250px;
+  }
+
+  .directions h1 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .directions .items__of_directions {
+    margin-left: 400px;
+  }
+  .directions .all_blocks-d {
+    margin: auto;
+    width: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .directions .btn-show-all-d {
+    width: 770px;
+    margin-left: 190px;
+    margin-top: 20px;
+  }
+
+  .facts {
+    width: 100%;
+    height: 100%;
+  }
+
+  .facts-container.first-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .facts-image.facts-first-image {
+    margin-top: 10px;
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .facts-container.second-container {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0px;
+  }
+  .facts-container.second-container h3 {
+    width: 600px;
+  }
+  .facts-container.second-container p.facts-p {
+    width: 600px;
+  }
+  .facts-container.second-container .facts-button {
+    width: 100%;
+  }
+  .facts-container.second-container .facts-second-image {
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .facts-container.third-container {
+    margin-top: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: matrix(180);
+            transform: matrix(180);
+    height: auto;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .facts-third-image {
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .facts-info h4 {
+    width: 600px;
+    margin-top: 10px;
+  }
+  .facts-info p.facts-p {
+    margin-top: 30px;
+  }
+
+  .FAQs {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .informer {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .informer p {
+    font-size: 20px;
+  }
+  .informer .private-manager {
+    font-size: 20px;
+  }
+  .informer .naming {
+    margin-top: 20px;
+  }
+  .informer .naming p {
+    font-size: 20px;
+  }
+  .informer .request {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .informer .request p {
+    font-size: 20px;
+  }
+  .informer .footer.facts-container {
+    margin-top: 20px;
+    width: 750px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .footer-container .comission {
+    margin: 40px auto;
+    width: auto;
+    height: auto;
+  }
+  .footer-container .comission p {
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+  }
+  .footer-container .comission a {
+    margin-bottom: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+  }
+  .footer-container .connection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-container .connection .telephone-worktime {
+    width: auto;
+  }
+  .footer-container .connection .telephone-worktime p {
+    width: auto;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .footer-container .footer-tag {
+    width: 90%;
+  }
+  .footer-container .footer-tag .footer-tag1 a,
+.footer-container .footer-tag .footer-tag2 a,
+.footer-container .footer-tag .footer-tag3 a {
+    width: 400px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .program-selection {
+    width: 100%;
+    height: 100px;
+  }
+  .program-selection a {
+    font-size: 50px;
+  }
+  .program-selection .green {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
