@@ -49,6 +49,7 @@ $font-color-DFDFDE:#DFDFDE;
 %steps {
     width: 95px;
     border: 2px solid #252525;
+    background-color: #DFDFDE;;
     margin-right: 9px;
 }
 
@@ -213,7 +214,6 @@ header nav ul {
 .ed-main {
     @extend %display-flex-spb;
 }
-
 .ed-main-img {
     width: 800px;
     height: 496px;
@@ -386,8 +386,8 @@ header nav ul {
 .university {
     margin-top: 72px;
     height: 193px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid #DFDFDE;
+    border-top: 1px solid #DFDFDE;
     display: flex;
 
     .university-icon {
@@ -536,7 +536,7 @@ header nav ul {
 }
 
 .btn-show-all-d {
-    width: 1216px;
+    width: 1200px;
     height: 48px;
     border: 1px solid #DFDFDE;
     box-sizing: border-box;
@@ -1077,9 +1077,6 @@ header nav ul {
     }
 }
 
-
-
-
 .FAQ {
     margin-top: 30px;
     background-color: #000000;
@@ -1094,6 +1091,7 @@ header nav ul {
     border-bottom: 1px solid #4A4A4A;
 
     h2 {
+        padding-left: 20px;
         margin: auto 0 auto 0;
         font-weight: 700;
         font-size: 44px;
@@ -1102,6 +1100,7 @@ header nav ul {
     }
 
     p {
+        padding-left: 20px;
         margin-top: auto;
         margin-bottom: auto;
         width: 277px;
@@ -1115,6 +1114,7 @@ header nav ul {
 
     h3,
     h4 {
+        padding-left: 20px;
         margin: auto 0 auto 0;
         width: 800px;
         height: 40px;
@@ -1140,8 +1140,9 @@ header nav ul {
     @extend %display-flex-spb;
     margin-top: 128px;
     width: 1216px;
-    height: 419px;
+    height: 370px;
     background-color: $font-color-fff;
+    margin-bottom: 0px;
 }
 
 .manager {
@@ -1152,6 +1153,7 @@ header nav ul {
     height: 294px;
 
     h1 {
+        padding-left: 20px;
         width: 312px;
         height: 102px;
         font-weight: 700;
@@ -1161,6 +1163,7 @@ header nav ul {
     }
 
     p {
+        padding-left: 20px;
         width: 312px;
         height: 96px;
         font-size: 18px;
@@ -1170,6 +1173,7 @@ header nav ul {
 }
 
 .private-manager {
+    padding-left: 20px;
     width: 301px;
     height: 50px;
     @extend %display-flex-spb;
@@ -1184,6 +1188,7 @@ header nav ul {
 }
 
 .manager-icon {
+    padding-left: 20px;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
@@ -1213,6 +1218,7 @@ header nav ul {
         line-height: 22px;
         letter-spacing: 0.01em;
         color: $font-color-000;
+      
     }
 
     input {
@@ -1221,6 +1227,7 @@ header nav ul {
         background: #F2F2F2;
         border-radius: 4px;
         padding-left: 19px;
+        border: none;
     }
 
     ::placeholder {
@@ -1236,6 +1243,7 @@ header nav ul {
     flex-direction: column;
     justify-content: space-between;
     height: 294px;
+    width: 332x;
 }
 
 .message-form {
@@ -1256,6 +1264,15 @@ header nav ul {
         padding-left: 19px;
         background: #F2F2F2;
         border-radius: 4px;
+        border: none;
+    }
+    ::placeholder  {
+       font-size: 16px;
+       margin-top: 7px;
+       padding-left: 0px;
+       transform: translateY(-80px);
+       white-space: normal;
+            
     }
 }
 
@@ -1265,7 +1282,7 @@ header nav ul {
 }
 
 .send-request-button {
-    width: 344px;
+    width: 100%;
     height: 63px;
     border-radius: 4px;
     background-color: #000000;
