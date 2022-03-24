@@ -1060,6 +1060,7 @@ header nav ul li p {
   color: #fff;
 }
 .question p {
+  margin-right: 35px;
   padding-left: 20px;
   margin-top: auto;
   margin-bottom: auto;
@@ -1726,46 +1727,124 @@ header nav ul li p {
 
   .informer {
     margin-top: 10px;
-    width: 100%;
-    height: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .informer p {
-    font-size: 20px;
-  }
-  .informer .private-manager {
-    font-size: 20px;
-  }
-  .informer .naming {
-    margin-top: 20px;
-  }
-  .informer .naming p {
-    font-size: 20px;
-  }
-  .informer .request {
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
-  .informer .request p {
-    font-size: 20px;
-  }
-  .informer .footer.facts-container {
-    margin-top: 20px;
-    width: 750px;
+    width: 700px;
+    height: 900px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
   }
-
-  .footer-container {
+  .informer .manager {
+    width: 700px;
+    height: auto;
+    margin: px 20px 0px 150px;
+    text-align: center;
+  }
+  .informer .manager h1 {
+    font-size: 52px;
+    height: 30px;
+    width: auto;
+    margin: 35px 0;
+  }
+  .informer .manager p {
+    line-height: 1;
+    width: auto;
+    margin-top: 20px;
+    font-size: 42px;
+  }
+  .informer .manager .private-manager {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .informer .manager .private-manager .manager-icon {
+    display: none;
+  }
+  .informer .manager .private-manager p {
+    display: none;
+  }
+  .informer .request p {
+    width: auto;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .informer .request input {
+    width: 667px;
+    height: 68px;
+  }
+  .informer .request ::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+  .informer .request ::-moz-placeholder {
+    font-size: 24px;
+  }
+  .informer .request :-ms-input-placeholder {
+    font-size: 24px;
+  }
+  .informer .request ::-ms-input-placeholder {
+    font-size: 24px;
+  }
+  .informer .request ::placeholder {
+    font-size: 24px;
+  }
+  .informer .send-request p {
+    margin-bottom: 10px;
+    font-size: 26px;
+    width: auto;
+    height: auto;
+  }
+  .informer .send-request .message-form input {
+    width: 667px;
+    height: 166px;
+  }
+  .informer .send-request .message-form ::-webkit-input-placeholder {
+    font-size: 24px;
+    padding-left: 5px;
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+    white-space: normal;
+  }
+  .informer .send-request .message-form ::-moz-placeholder {
+    font-size: 24px;
+    padding-left: 5px;
+    transform: translateY(-60px);
+    white-space: normal;
+  }
+  .informer .send-request .message-form :-ms-input-placeholder {
+    font-size: 24px;
+    padding-left: 5px;
+    transform: translateY(-60px);
+    white-space: normal;
+  }
+  .informer .send-request .message-form ::-ms-input-placeholder {
+    font-size: 24px;
+    padding-left: 5px;
+    transform: translateY(-60px);
+    white-space: normal;
+  }
+  .informer .send-request .message-form ::placeholder {
+    font-size: 24px;
+    padding-left: 5px;
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+    white-space: normal;
+  }
+  .informer .send-request-button {
+    margin-bottom: 10px;
+  }
+  .informer .footer-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1775,12 +1854,12 @@ header nav ul li p {
             align-items: center;
     height: auto;
   }
-  .footer-container .comission {
+  .informer .footer-container .comission {
     margin: 40px auto;
     width: auto;
     height: auto;
   }
-  .footer-container .comission p {
+  .informer .footer-container .comission p {
     line-height: 1;
     margin-bottom: 20px;
     text-align: center;
@@ -1788,14 +1867,14 @@ header nav ul li p {
     height: auto;
     font-size: 40px;
   }
-  .footer-container .comission a {
+  .informer .footer-container .comission a {
     margin-bottom: 20px;
     text-align: center;
     width: auto;
     height: auto;
     font-size: 30px;
   }
-  .footer-container .connection {
+  .informer .footer-container .connection {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1804,33 +1883,32 @@ header nav ul li p {
         -ms-flex-align: center;
             align-items: center;
   }
-  .footer-container .connection .telephone-worktime {
+  .informer .footer-container .connection .telephone-worktime {
     width: auto;
   }
-  .footer-container .connection .telephone-worktime p {
+  .informer .footer-container .connection .telephone-worktime p {
     width: auto;
     margin-top: 20px;
     font-size: 40px;
   }
-  .footer-container .footer-tag {
+  .informer .footer-container .footer-tag {
     width: 90%;
   }
-  .footer-container .footer-tag .footer-tag1 a,
-.footer-container .footer-tag .footer-tag2 a,
-.footer-container .footer-tag .footer-tag3 a {
+  .informer .footer-container .footer-tag .footer-tag1 a,
+.informer .footer-container .footer-tag .footer-tag2 a,
+.informer .footer-container .footer-tag .footer-tag3 a {
     width: 400px;
     font-size: 40px;
     line-height: 1;
   }
-
-  .program-selection {
+  .informer .program-selection {
     width: 100%;
     height: 100px;
   }
-  .program-selection a {
+  .informer .program-selection a {
     font-size: 50px;
   }
-  .program-selection .green {
+  .informer .program-selection .green {
     width: 30px;
     height: 30px;
     background-size: cover;
